@@ -1,0 +1,74 @@
+.blog-container {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.blog-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.blog-intro {
+  margin-bottom: 40px;
+}
+
+.blog-intro p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.blog-post {
+  display: flex;
+  align-items: flex-start;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post-image {
+  max-width: 150px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.blog-post-content {
+  flex-grow: 1;
+}
+
+.blog-post-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.blog-post-excerpt {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.blog-post-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #1e90ff; /* DodgerBlue color */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.blog-post-link:hover {
+  text-decoration: underline;
+}

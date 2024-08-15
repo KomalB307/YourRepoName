@@ -1,0 +1,60 @@
+.header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #1e90ff;
+  border-bottom: 2px solid #1e90ff;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.nav-link.active:hover {
+  text-decoration: none;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-top: 2px solid #1e90ff; /* Optional: Adds a top border */
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
+
+.footer-content p {
+  margin: 5px 0;
+}
+
+.footer-content a {
+  color: #1e90ff; /* DodgerBlue color */
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
